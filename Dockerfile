@@ -1,5 +1,5 @@
 # Container image that runs your code
-FROM python:3.8-slim
+FROM python:3.13-slim
 
 # Instalando as dependencias
 COPY requirements.txt .
